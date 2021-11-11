@@ -1,0 +1,35 @@
+:py:mod:`cipher_hs3240.cipher_hs3240`
+=====================================
+
+.. py:module:: cipher_hs3240.cipher_hs3240
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   cipher_hs3240.cipher_hs3240.cipher
+
+
+
+.. py:function:: cipher(text, shift, encrypt=True)
+
+   The Caesar cipher is one of the simplest and most widely known encryption techniques.
+   This cipher takes string data and decode it by shifting each letter by the number of positions specified in the alphabet.
+
+   :param text: Input string data to be ciphered.
+   :param shift: Number of digits in the alphabet to shift in the right direction.
+   :param encrypt: True/False indicator defining whether or not the string is to be encrypted by this function.
+
+   :returns: Ciphered text with input string data 'text' shifted the number of units defined by 'shift' input.
+
+   Example of Usage:
+       >>> print([cipher('Chef',3)])
+       'Fkhi'
+
+

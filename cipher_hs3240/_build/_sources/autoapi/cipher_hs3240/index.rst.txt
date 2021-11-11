@@ -1,0 +1,23 @@
+:py:mod:`cipher_hs3240`
+=======================
+
+.. py:module:: cipher_hs3240
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   cipher_hs3240/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+   
+
+   
+
